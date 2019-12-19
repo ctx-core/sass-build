@@ -7,6 +7,11 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"bin": {
+		"sass-build.sh": "bin/sass-build.sh",
+		"sass-cmd.js": "bin/sass-cmd.js",
+		"sass-watch.sh": "bin/sass-watch.sh"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ctx-core/sass-build/issues"
