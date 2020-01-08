@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "1.0.26",
+	"version": "1.0.27",
 	"description": "ctx-core sass build scripts",
 	"main": "sass-cmd.js",
 	"module": "sass-cmd.js",
