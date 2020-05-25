@@ -9,11 +9,10 @@
  * sass-cmd.js -t browser
  * # browser build file list
  */
-import fs from 'fs'
-import { promisify } from 'util'
-import resolve__ from 'resolve'
-import minimist from 'minimist'
-const resolve = promisify(resolve__)
+const fs = require('fs')
+const minimist = require('minimist')
+const { promisify } = require('util')
+const resolve = promisify(require('resolve'))
 main()
 module.exports = _sass__cmd
 async function main() {
