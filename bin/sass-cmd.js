@@ -9,8 +9,11 @@
  * sass-cmd.js -t browser
  * # browser build file list
  */
-const { promisify } = require('util')
-const resolve = promisify(require('resolve'))
+import fs from 'fs'
+import { promisify } from 'util'
+import resolve__ from 'resolve'
+import minimist from 'minimist'
+const resolve = promisify(resolve__)
 main()
 module.exports = _sass__cmd
 async function main() {
@@ -18,7 +21,6 @@ async function main() {
 	console.info(sass__cmd)
 }
 async function _sass__cmd() {
-	const minimist = require('minimist')
 	const argv =
 		minimist(process.argv.slice(2), {
 			'--': true,
@@ -33,7 +35,6 @@ async function _sass__cmd() {
 		|| 'browser'
 	const watch = argv.watch
 	const suffix = (argv['--'] || []).join(' ')
-	const fs = require('fs')
 	const json__config = fs.readFileSync(config_file, 'utf8')
 	const config = JSON.parse(json__config)
 	const a1__config__cmd = config[target] || []
