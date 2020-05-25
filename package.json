@@ -2,8 +2,7 @@
 	"name": "@ctx-core/sass-build",
 	"version": "1.0.38",
 	"description": "ctx-core sass build scripts",
-	"main": "sass-cmd.js",
-	"module": "sass-cmd.js",
+	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
