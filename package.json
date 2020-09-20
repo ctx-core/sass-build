@@ -22,8 +22,8 @@
 		"sass-watch.sh": "bin/sass-watch.sh"
 	},
 	"scripts": {
-		"exec": "$@",
-		"build": "npm run compile"
+		"build": "npm run compile",
+		"exec": "$@"
 	},
 	"dependencies": {
 		"minimist": "^1.2.5",
