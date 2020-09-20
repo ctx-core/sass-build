@@ -1,41 +1,41 @@
 {
-  "name": "@ctx-core/sass-build",
-  "version": "1.0.45",
-  "description": "ctx-core sass build scripts",
-  "keywords": [
-    "ctx-core",
-    "sass"
-  ],
-  "homepage": "https://github.com/ctx-core/sass-build#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/sass-build/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/sass-build/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "bin": {
-    "sass-build.sh": "bin/sass-build.sh",
-    "sass-cmd.js": "bin/sass-cmd.js",
-    "sass-watch.sh": "bin/sass-watch.sh"
-  },
-  "scripts": {
-    "build": "npm run compile",
-    "exec": "$@"
-  },
-  "dependencies": {
-    "minimist": "^1.2.5",
-    "node-sass": "^4.14.1",
-    "node-sass-package-importer": "^5.3.2",
-    "nodemon": "^2.0.4",
-    "resolve": "^1.17.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@ctx-core/sass-build",
+	"version": "1.0.45",
+	"description": "ctx-core sass build scripts",
+	"keywords": [
+		"ctx-core",
+		"sass"
+	],
+	"homepage": "https://github.com/ctx-core/sass-build#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/sass-build/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/sass-build/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"bin": {
+		"sass-build.sh": "bin/sass-build.sh",
+		"sass-cmd.js": "bin/sass-cmd.js",
+		"sass-watch.sh": "bin/sass-watch.sh"
+	},
+	"scripts": {
+		"build": "npm run compile",
+		"exec": "$@"
+	},
+	"dependencies": {
+		"minimist": "^1.2.5",
+		"node-sass": "^4.14.1",
+		"node-sass-package-importer": "^5.3.2",
+		"nodemon": "^2.0.4",
+		"resolve": "^1.17.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
