@@ -22,7 +22,8 @@
 		"sass-watch.sh": "bin/sass-watch.sh"
 	},
 	"scripts": {
-		"exec": "$@"
+		"exec": "$@",
+		"build": "npm run compile"
 	},
 	"dependencies": {
 		"minimist": "^1.2.5",
@@ -33,6 +34,5 @@
 	},
 	"publishConfig": {
 		"access": "public"
-	},
-	"gitHead": "ec7940a0fa9611d4b997162fa0b33d42e0ebb7ac"
+	}
 }
