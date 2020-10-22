@@ -1,5 +1,12 @@
 # @ctx-core/sass-build
 
+## 1.0.47
+
+### Patch Changes
+
+- resolve: ^1.17.0 -> ^1.18.1
+- nodemon: ^2.0.5 -> ^2.0.6
+
 ## 1.0.46
 
 ### Patch Changes
