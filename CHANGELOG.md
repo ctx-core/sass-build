@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.0.49
+
+### Patch Changes
+
+- node-sass: ^4.14.1 -> ^5.0.0
+
 ## 1.0.48
 
 ### Patch Changes
