@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.0.53
+
+### Patch Changes
+
+- - .rush
+
 ## 1.0.52
 
 ### Patch Changes
