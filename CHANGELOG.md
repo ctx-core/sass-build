@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.0.60
+
+### Patch Changes
+
+- version bump
+
 ## 1.0.59
 
 ### Patch Changes
