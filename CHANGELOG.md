@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.0.62
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+
 ## 1.0.61
 
 ### Patch Changes

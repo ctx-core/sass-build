@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "1.0.61",
+	"version": "1.0.62",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",
@@ -36,6 +36,7 @@
 		"typescript": "^4.2.3"
 	},
 	"publishConfig": {
-		"access": "public"
+		"access": "public",
+		"cache": "~/.npm"
 	}
 }
