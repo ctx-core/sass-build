@@ -53,7 +53,7 @@ async function _sass_cmd() {
 			watch
 			? `${params} --watch`
 			: params
-		let cmd = `node-sass ${params} ${input}`
+		let cmd = `sass ${params} ${input}`
 		if (output) cmd = `${cmd} ${output}`
 		if (suffix) {
 			cmd = `${cmd} ${suffix}`

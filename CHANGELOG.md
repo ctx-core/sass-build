@@ -1,5 +1,18 @@
 # @ctx-core/sass-build
 
+## 1.0.67
+
+### Patch Changes
+
+- - node-sass dependency
+- - sass dependency
+
+## 1.0.66
+
+### Patch Changes
+
+- node-sass: ^5.0.0 -> ^6.0.0
+
 ## 1.0.65
 
 ### Patch Changes
