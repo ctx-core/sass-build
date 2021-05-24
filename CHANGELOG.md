@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.1.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
 ## 1.0.71
 
 ### Patch Changes
