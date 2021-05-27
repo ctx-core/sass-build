@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.1.2
+
+### Patch Changes
+
+- update dependencies
+
 ## 1.1.1
 
 ### Patch Changes
