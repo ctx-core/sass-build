@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.1.3
+
+### Patch Changes
+
+- fix: npm run build
+
 ## 1.1.2
 
 ### Patch Changes
