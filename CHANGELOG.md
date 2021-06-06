@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.1.4
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+
 ## 1.1.3
 
 ### Patch Changes
