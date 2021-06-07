@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 1.1.5
+
+### Patch Changes
+
+- version bump: run build
+
 ## 1.1.4
 
 ### Patch Changes
