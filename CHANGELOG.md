@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 2.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
 ## 1.1.5
 
 ### Patch Changes
