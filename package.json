@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "2.0.5",
+	"version": "2.0.6",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",

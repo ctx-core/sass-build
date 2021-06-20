@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 2.0.6
+
+### Patch Changes
+
+- fix: deploying \*.js files
+
 ## 2.0.5
 
 ### Patch Changes
