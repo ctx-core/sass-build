@@ -9,17 +9,18 @@
  * sass-cmd.js -t browser
  * # browser build file list
  */
-const fs = require('fs')
-const minimist = require('minimist')
-const { promisify } = require('util')
-const resolve = promisify(require('resolve'))
-main()
-module.exports = _sass_cmd
+import { readFileSync } from 'Ufs'
+import { promisify } from 'util'
+import resolve from 'resolve'
+const resolve_async = promisify(resolve)
+import minimist from 'minimist'
+await main()
+module.exports = sass_cmd_
 async function main() {
-	const sass_cmd = await _sass_cmd()
+	const sass_cmd = await sass_cmd_()
 	console.info(sass_cmd)
 }
-async function _sass_cmd() {
+async function sass_cmd_() {
 	const argv =
 		minimist(process.argv.slice(2), {
 			'--': true,
@@ -34,7 +35,7 @@ async function _sass_cmd() {
 		|| 'browser'
 	const watch = argv.watch
 	const suffix = (argv['--'] || []).join(' ')
-	const config_json = fs.readFileSync(config_file, 'utf8')
+	const config_json = readFileSync(config_file, 'utf8')
 	const config = JSON.parse(config_json)
 	const cmd_config_a = config[target] || []
 	const cmd_sass_promise_a = []
@@ -48,7 +49,7 @@ async function _sass_cmd() {
 	const cmd_sass_a = await Promise.all(cmd_sass_promise_a)
 	return cmd_sass_a.join('\n')
 	async function cmd_(params, input, output, suffix) {
-		params = `${params} --importer ${await resolve('node-sass-package-importer/dist/cli.js')}`
+		params = `${params} --importer ${await resolve_async('node-sass-package-importer/dist/cli.js')}`
 		params =
 			watch
 			? `${params} --watch`

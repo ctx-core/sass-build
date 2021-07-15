@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
 ## 2.0.12
 
 ### Patch Changes
