@@ -16,6 +16,7 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
+	"type": "module",
 	"bin": {
 		"sass-build.sh": "bin/sass-build.sh",
 		"sass-cmd.js": "bin/sass-cmd.js",
