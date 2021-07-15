@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",
@@ -16,7 +16,6 @@
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
-	"type": "module",
 	"bin": {
 		"sass-build.sh": "bin/sass-build.sh",
 		"sass-cmd.js": "bin/sass-cmd.js",
