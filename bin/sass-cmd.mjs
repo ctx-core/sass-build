@@ -9,10 +9,8 @@
  * sass-cmd.js -t browser
  * # browser build file list
  */
-import { readFileSync } from 'Ufs'
-import { promisify } from 'util'
-import resolve from 'resolve'
-const resolve_async = promisify(resolve)
+import { readFile } from 'fs/promises'
+import { resolve } from 'import-meta-resolve'
 import minimist from 'minimist'
 await main()
 module.exports = sass_cmd_
@@ -35,7 +33,7 @@ async function sass_cmd_() {
 		|| 'browser'
 	const watch = argv.watch
 	const suffix = (argv['--'] || []).join(' ')
-	const config_json = readFileSync(config_file, 'utf8')
+	const config_json = await readFile(config_file, 'utf8')
 	const config = JSON.parse(config_json)
 	const cmd_config_a = config[target] || []
 	const cmd_sass_promise_a = []
@@ -49,7 +47,9 @@ async function sass_cmd_() {
 	const cmd_sass_a = await Promise.all(cmd_sass_promise_a)
 	return cmd_sass_a.join('\n')
 	async function cmd_(params, input, output, suffix) {
-		params = `${params} --importer ${await resolve_async('node-sass-package-importer/dist/cli.js')}`
+		params = `${params} --importer ${
+			await resolve('node-sass-package-importer/dist/cli.js', import.meta.url)
+		}`
 		params =
 			watch
 			? `${params} --watch`
