@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.0.4
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+
 ## 3.0.3
 
 ### Patch Changes
