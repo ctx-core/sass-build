@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.0.16
+
+### Patch Changes
+
+- typescript: ^4.4.2 -> ^4.4.3
+
 ## 3.0.15
 
 ### Patch Changes
