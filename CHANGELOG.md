@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.0.24
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- sass: ^1.42.1 -> ^1.43.4
+- nodemon: ^2.0.13 -> ^2.0.14
+
 ## 3.0.23
 
 ### Patch Changes
