@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.0.25
+
+### Patch Changes
+
+- compile using swc
+
 ## 3.0.24
 
 ### Patch Changes
