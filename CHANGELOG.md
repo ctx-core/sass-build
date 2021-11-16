@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.0
+
+### Minor Changes
+
+- @ctx-core/cli-args instead of minimist
+
 ## 3.0.25
 
 ### Patch Changes

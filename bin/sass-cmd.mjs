@@ -11,7 +11,7 @@
  */
 import { readFile } from 'fs/promises'
 import { resolve } from 'import-meta-resolve'
-import minimist from 'minimist'
+import { param_r_ } from '@ctx-core/cli-args'
 await main()
 module.exports = sass_cmd_
 async function main() {
@@ -19,20 +19,20 @@ async function main() {
 	console.info(sass_cmd)
 }
 async function sass_cmd_() {
-	const argv =
-		minimist(process.argv.slice(2), {
-			'--': true,
-			alias: { c: 'config', t: 'target', w: 'watch' }
-		})
+	const param_r = param_r_(process.argv.slice(2), {
+		config: '-c, --config',
+		target: '-t, --target',
+		watch: '-w, --watch',
+	})
 	const config_file =
-		argv.config
+		param_r.config?.[0]
 		|| process.env.SASS_JSON
 		|| './sass.json'
 	const target =
-		argv.target
+		param_r.target?.[0]
 		|| 'browser'
-	const watch = argv.watch
-	const suffix = (argv['--'] || []).join(' ')
+	const watch = param_r.watch?.[0]
+	const suffix = (param_r['--'] || []).join(' ')
 	const config_json = await readFile(config_file, 'utf8')
 	const config = JSON.parse(config_json)
 	const cmd_config_a = config[target] || []
