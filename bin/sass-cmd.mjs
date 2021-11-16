@@ -31,7 +31,7 @@ async function sass_cmd_() {
 	const target =
 		param_r.target?.[0]
 		|| 'browser'
-	const watch = param_r.watch?.[0]
+	const watch = !!param_r.watch
 	const suffix = (param_r['--'] || []).join(' ')
 	const config_json = await readFile(config_file, 'utf8')
 	const config = JSON.parse(config_json)
@@ -50,10 +50,7 @@ async function sass_cmd_() {
 		params = `${params} --importer ${
 			await resolve('node-sass-package-importer/dist/cli.js', import.meta.url)
 		}`
-		params =
-			watch
-			? `${params} --watch`
-			: params
+		params = watch ? `${params} --watch` : params
 		let cmd = `sass ${params} ${input}`
 		if (output) cmd = `${cmd} ${output}`
 		if (suffix) {
