@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.1.6
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/cli-args@11.0.12
+
 ## 3.1.5
 
 ### Patch Changes
