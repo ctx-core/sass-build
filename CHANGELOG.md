@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.1.7
+
+### Patch Changes
+
+- fix: package.json: exports
+- Updated dependencies
+  - @ctx-core/cli-args@11.0.13
+
 ## 3.1.6
 
 ### Patch Changes
