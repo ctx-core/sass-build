@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.10
+
+### Patch Changes
+
+- fix: sass @import
+
 ## 3.1.9
 
 ### Patch Changes
