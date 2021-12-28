@@ -48,7 +48,7 @@ async function sass_cmd_() {
 	return cmd_sass_a.join('\n')
 	async function cmd_(params, input, output, suffix) {
 		params = `${params} --importer ${
-			await resolve('node-sass-package-importer/dist/cli.js', import.meta.url)
+			await resolve('node-sass-package-importer/lib/cli.js', import.meta.url)
 		}`
 		params = watch ? `${params} --watch` : params
 		let cmd = `sass ${params} ${input}`
