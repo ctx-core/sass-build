@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.28
+
+### Patch Changes
+
+- update dependencies
+
 ## 3.1.27
 
 ### Patch Changes
