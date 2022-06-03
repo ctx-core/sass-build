@@ -1,5 +1,12 @@
 # @ctx-core/sass-build
 
+## 3.1.35
+
+### Patch Changes
+
+- sass: ^1.52.1 -> ^1.52.2
+- .js + .d.ts instead of .ts
+
 ## 3.1.34
 
 ### Patch Changes
