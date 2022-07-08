@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.40
+
+### Patch Changes
+
+- nodemon: ^2.0.18 -> ^2.0.19
+
 ## 3.1.39
 
 ### Patch Changes
