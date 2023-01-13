@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.70
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 3.1.69
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "3.1.69",
+	"version": "3.1.70",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",
@@ -36,7 +36,7 @@
 		"sass": "^1.57.1"
 	},
 	"devDependencies": {
-		"rimraf": "^3.0.2",
+		"rimraf": "^4.0.1",
 		"typescript": "next"
 	},
 	"publishConfig": {
