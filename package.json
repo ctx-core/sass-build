@@ -36,7 +36,7 @@
 		"sass": "^1.57.1"
 	},
 	"devDependencies": {
-		"rimraf": "^4.1.0",
+		"rimraf": "^4.1.1",
 		"typescript": "next"
 	},
 	"publishConfig": {
