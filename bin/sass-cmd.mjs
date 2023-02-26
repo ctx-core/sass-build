@@ -9,9 +9,10 @@
  * sass-cmd.js -t browser
  * # browser build file list
  */
+import { param_r_ } from '@ctx-core/cli-args'
+import { import_meta_env_ } from '@ctx-core/env'
 import { readFile } from 'fs/promises'
 import { resolve } from 'import-meta-resolve'
-import { param_r_ } from '@ctx-core/cli-args'
 await main()
 module.exports = sass_cmd_
 async function main() {
@@ -26,7 +27,7 @@ async function sass_cmd_() {
 	})
 	const config_file =
 		param_r.config?.[0]
-		|| process.env.SASS_JSON
+		|| import_meta_env_().SASS_JSON
 		|| './sass.json'
 	const target =
 		param_r.target?.[0]

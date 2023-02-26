@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.1.100
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 3.1.99
 
 ### Patch Changes
