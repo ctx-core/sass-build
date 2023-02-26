@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.101
+
+### Patch Changes
+
+- dependencies: fix: @ctx-core/env
+
 ## 3.1.100
 
 ### Patch Changes
