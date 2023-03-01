@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.104
+
+### Patch Changes
+
+- package.json: + types
+
 ## 3.1.103
 
 ### Patch Changes
