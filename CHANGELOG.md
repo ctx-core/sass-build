@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.217
+
+### Patch Changes
+
+- node-sass-package-importer: ^5.3.2 -> ^5.3.3
+
 ## 3.1.216
 
 ### Patch Changes
