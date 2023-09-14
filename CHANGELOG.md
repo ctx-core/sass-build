@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.241
+
+### Patch Changes
+
+- resolve: ^1.22.4 -> ^1.22.5
+
 ## 3.1.240
 
 ### Patch Changes
