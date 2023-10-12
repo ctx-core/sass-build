@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.251
+
+### Patch Changes
+
+- sass: ^1.69.2 -> ^1.69.3
+
 ## 3.1.250
 
 ### Patch Changes
