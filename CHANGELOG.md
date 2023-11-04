@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.1.259
+
+### Patch Changes
+
+- import-meta-resolve: ^3.0.0 -> ^4.0.0
+
 ## 3.1.258
 
 ### Patch Changes
