@@ -1,5 +1,24 @@
 # @ctx-core/sass-build
 
+## 3.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/cli-args@11.4.0
+  - @ctx-core/env@17.4.0
+
 ## 3.1.263
 
 ### Patch Changes
