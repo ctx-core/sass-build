@@ -1,5 +1,14 @@
 # @ctx-core/sass-build
 
+## 3.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+- Updated dependencies
+  - @ctx-core/cli-args@11.4.2
+  - @ctx-core/env@17.4.2
+
 ## 3.2.1
 
 ### Patch Changes
