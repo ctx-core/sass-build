@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "3.2.6",
+	"version": "3.2.7",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",
@@ -43,8 +43,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/cli-args": "^11.4.6",
-		"@ctx-core/env": "^17.4.6",
+		"@ctx-core/cli-args": "^11.4.7",
+		"@ctx-core/env": "^17.4.7",
 		"import-meta-resolve": "^4.0.0",
 		"node-sass-package-importer": "^5.3.3",
 		"nodemon": "^3.0.1",
