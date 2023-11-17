@@ -1,5 +1,12 @@
 # @ctx-core/sass-build
 
+## 3.2.6
+
+### Patch Changes
+
+- @ctx-core/env: ^17.4.5 -> ^17.4.6
+- @ctx-core/cli-args: ^11.4.5 -> ^11.4.6
+
 ## 3.2.5
 
 ### Patch Changes
