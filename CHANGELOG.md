@@ -1,5 +1,14 @@
 # @ctx-core/sass-build
 
+## 3.2.27
+
+### Patch Changes
+
+- tsx: ^4.3.0 -> ^4.4.0
+- Updated dependencies
+  - @ctx-core/cli-args@11.4.25
+  - @ctx-core/env@17.4.28
+
 ## 3.2.26
 
 ### Patch Changes
