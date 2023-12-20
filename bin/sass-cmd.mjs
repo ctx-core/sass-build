@@ -9,8 +9,8 @@
  * sass-cmd.js -t browser
  * # browser build file list
  */
-import { param_r_ } from '@ctx-core/cli-args'
-import { import_meta_env_ } from '@ctx-core/env'
+import { param_r_ } from 'ctx-core/cli-args'
+import { import_meta_env_ } from 'ctx-core/env'
 import { readFile } from 'fs/promises'
 import { resolve } from 'import-meta-resolve'
 await main()
