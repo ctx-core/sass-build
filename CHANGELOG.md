@@ -1,5 +1,14 @@
 # @ctx-core/sass-build
 
+## 3.2.71
+
+### Patch Changes
+
+- ctx-core: ^5.5.0 -> ^5.6.0
+- sass: ^1.69.5 -> ^1.69.6
+- Updated dependencies
+  - ctx-core@5.6.1
+
 ## 3.2.70
 
 ### Patch Changes
