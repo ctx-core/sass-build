@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "3.2.75",
+	"version": "3.2.76",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",
@@ -49,7 +49,7 @@
 		"node-sass-package-importer": "^5.3.3",
 		"nodemon": "^3.0.2",
 		"resolve": "^1.22.8",
-		"sass": "^1.69.6"
+		"sass": "^1.69.7"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
