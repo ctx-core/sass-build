@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.2.87
+
+### Patch Changes
+
+- ctx-core: ^5.17.1 -> ^5.18.0
+
 ## 3.2.86
 
 ### Patch Changes
