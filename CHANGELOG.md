@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.2.94
+
+### Patch Changes
+
+- import nodejs core modules using node: prefix
+- Updated dependencies
+  - ctx-core@5.18.8
+
 ## 3.2.93
 
 ### Patch Changes
