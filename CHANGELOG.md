@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.2.150
+
+### Patch Changes
+
+- nodemon: ^3.0.3 -> ^3.1.0
+- Updated dependencies
+  - ctx-core@6.4.5
+
 ## 3.2.149
 
 ### Patch Changes
