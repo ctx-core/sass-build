@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/sass-build",
-	"version": "3.2.164",
+	"version": "3.2.165",
 	"description": "ctx-core sass build scripts",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/sass-build.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-sass-build@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -44,7 +48,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0",
+		"ctx-core": "^6.6.1",
 		"import-meta-resolve": "^4.0.0",
 		"node-sass-package-importer": "^5.3.3",
 		"nodemon": "^3.1.0",

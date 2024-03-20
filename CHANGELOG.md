@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.2.165
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 3.2.164
 
 ### Patch Changes
