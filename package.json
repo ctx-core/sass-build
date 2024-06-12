@@ -53,10 +53,10 @@
 		"node-sass-package-importer": "^5.3.3",
 		"nodemon": "^3.1.3",
 		"resolve": "^1.22.8",
-		"sass": "^1.77.4"
+		"sass": "^1.77.5"
 	},
 	"devDependencies": {
-		"c8": "^10.1.0",
+		"c8": "^10.1.1",
 		"check-dts": "^0.8.0",
 		"tsx": "^4.15.2",
 		"typescript": "next",
