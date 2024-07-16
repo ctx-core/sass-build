@@ -1,5 +1,11 @@
 # @ctx-core/sass-build
 
+## 3.2.221
+
+### Patch Changes
+
+- ctx-core: ^7.2.27 -> ^7.2.28
+
 ## 3.2.220
 
 ### Patch Changes
