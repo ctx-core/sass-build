@@ -1,5 +1,13 @@
 # @ctx-core/sass-build
 
+## 3.2.227
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 3.2.226
 
 ### Patch Changes
